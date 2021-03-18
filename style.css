@@ -1,3 +1,50 @@
-img {
+.navbar-my-theme {
+    background-color: white;
+    border: transparent;
+}
+.navbar-my-theme img {
     height: 100%;
 }
+/* da sistemare i padding dei singoli elementi e far collassare anche in md*/
+section {
+    padding: 30px 0;
+}
+.bg-img {
+    background-color: dodgerblue;
+}
+.text-white {
+    color: white;
+}
+.text-blue {
+    color: dodgerblue;
+}
+.text-center {
+    text-align: center;
+}
+.text-underline {
+    text-decoration: underline;
+}
+.text-small {
+    font-size: small;
+}
+/* .my-b1 {} */
+.my-b2 {
+    width: 100%;
+    background-color: dodgerblue;
+}
+.my-b3 {
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 2px rgb(0 0 0 / 10%);
+    background-image: url(img/google-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* da aggiustare dimensioni e opacità */
+}
+.bubble {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+/* da aggiustare margini vari */
