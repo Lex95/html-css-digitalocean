@@ -55,3 +55,13 @@ section {
 .client-logo {
     width: 100%;
 }
+.link-list > a {
+    display: block;
+    border-left: 1px solid grey;
+    /* da aggiustare stile */
+}
+.deploy-img {
+    display: block;
+    width: 30px;
+}
+/* da aggiustare stile generale della sezione */
