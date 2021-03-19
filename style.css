@@ -48,7 +48,10 @@ section {
     background-repeat: no-repeat;
     /* da aggiustare dimensioni e opacità */
 }
-/* .my-b4 {} */
+.my-b4 {
+    background-color: white;
+    color: dodgerblue;
+}
 .bubble {
     width: 100%;
     padding: 10px;
