@@ -19,11 +19,17 @@ section {
     /* sarebbe un gradiente ma vediamo poi */
     background-color: blue;
 }
+.bg-darkblue {
+    background-color: midnightblue;
+}
 .text-white {
     color: white;
 }
 .text-blue {
     color: dodgerblue;
+}
+.text-grey {
+    color: lightgray;
 }
 .text-center {
     text-align: center;
@@ -69,6 +75,7 @@ section {
     /* da aggiustare stile */
 }
 .deploy-img {
+    /* nome da rivedere forse */
     display: block;
     width: 30px;
 }
@@ -94,3 +101,7 @@ section {
     width: 200px;
 }
 /* da aggiustare stile generale della sezione (carousel) */
+footer li > a {
+    color: lightgray;
+}
+/* as usual aggiungere stile */
