@@ -58,6 +58,7 @@ section {
 /* da aggiustare margini vari */
 .client-logo {
     width: 100%;
+    /* forse viene megli ocon height */
 }
 .link-list > a {
     display: block;
@@ -86,3 +87,7 @@ section {
 /* da sistemare margini sezione 5 */
 
 /* aggiustare stile tabella */
+.carousel-logo {
+    width: 200px;
+}
+/* da aggiustare stile generale della sezione (carousel) */
