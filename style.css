@@ -15,6 +15,10 @@ section {
 .bg-grey {
     background-color: #f3f5f9;
 }
+.bg-blue {
+    /* sarebbe un gradiente ma vediamo poi */
+    background-color: blue;
+}
 .text-white {
     color: white;
 }
@@ -80,3 +84,5 @@ section {
     background-color: dodgerblue;
 }
 /* da sistemare margini sezione 5 */
+
+/* aggiustare stile tabella */
