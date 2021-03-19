@@ -10,7 +10,8 @@ section {
     padding: 30px 0;
 }
 .bg-img {
-    background-color: dodgerblue;
+    background-image: url(img/bg-banner-home.jpg);
+    background-size: cover;
 }
 .bg-grey {
     background-color: #f3f5f9;
@@ -31,16 +32,23 @@ section {
 .text-grey {
     color: lightgray;
 }
-.text-center {
-    text-align: center;
+.text-darkgrey {
+    color: grey;
 }
 .text-underline {
     text-decoration: underline;
 }
 .text-small {
-    font-size: small;
+    font-size: 10px;
 }
-/* .my-b1 {} */
+.text-caps {
+    text-transform: uppercase;
+}
+.my-b1 {
+    background-color: white;
+    border-color: dodgerblue;
+    color: dodgerblue;
+}
 .my-b2 {
     width: 100%;
     background-color: dodgerblue;
@@ -64,15 +72,32 @@ section {
     background-color: white;
     border-radius: 10px;
 }
+.bubble > * {
+    margin-bottom: 10px;
+}
 /* da aggiustare margini vari */
 .client-logo {
     width: 100%;
-    /* forse viene megli ocon height */
+    max-height: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
-.link-list > a {
-    display: block;
+.my-hfix {
+    height: 100px;
+}
+.link-list > li {
     border-left: 1px solid grey;
-    /* da aggiustare stile */
+    padding: 10px 5px;
+}
+.link-list a {
+    color: grey;
+}
+.my-margin-top {
+    margin-top: 40px;
+}
+.my-margin-bottom {
+    margin-bottom: 20px;
 }
 .deploy-img {
     /* nome da rivedere forse */
@@ -97,6 +122,8 @@ section {
 /* da sistemare margini sezione 5 */
 
 /* aggiustare stile tabella */
+/* border-top td */
+/* text-align destra per l'ultimo figlio di tr */
 .carousel-logo {
     width: 200px;
 }
@@ -105,3 +132,4 @@ footer li > a {
     color: lightgray;
 }
 /* as usual aggiungere stile */
+

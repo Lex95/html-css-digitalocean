@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="style.css">
     <title>DigitalOcean</title>
 </head>
-<!-- asciuga le classi delle colonne, essendo mobile first non serve specificare le col superiori se sono uguali alle inferiori -->
 <body>
     <!-- da rivedere il nav se no flavio mi mena -->
     <header>
@@ -20,8 +19,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <!-- hamburger menu -->
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
+                    <button type="button" class="navbar-toggle collapsed text-blue" data-toggle="collapse">
                         <span class="glyphicon glyphicon-menu-hamburger"></span>
                     </button>
                     <!-- logo a sinistra -->
@@ -30,7 +28,7 @@
                     </a>
                 </div>
                 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse">
                     <!-- parte centrale -->
                     <ul class="nav navbar-nav">
                         <li>
@@ -57,7 +55,7 @@
                         </li>
                         <li><a href="#">Login</a></li>
                         <li>
-                            <button type="button" class="btn btn-default navbar-btn">Sign Up</button>
+                            <button type="button" class="btn btn-default navbar-btn my-b1">Sign Up</button>
                         </li>
                     </ul>
                 </div>
@@ -69,16 +67,19 @@
         <section class="bg-img">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-7 col-md-7 col-sm-7">
-                        <div class="text-white">
-                            <h1>The simplest cloud platform for developers & teams</h1>
-                            <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousands</p>
+                    <div class="col-sm-7">
+                        <div>
+                            <h1 class="text-white">The simplest cloud platform for developers & teams</h1>
+                            <p  class="text-grey">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousands</p>
                         </div>
                     </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5">
+                    <div class="col-sm-5">
                         <div class="bubble text-center">
-                            <h2>Deploy your app in seconds.</h2>
-                            <h2 class="text-blue">Get started now</h2>
+                            <h2>
+                                Deploy your app in seconds.
+                                <br>
+                                <span class="text-blue">Get started now</span> 
+                            </h2>
                             <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
                             <input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
                             <button type="button" class="btn btn-defualt text-white my-b2">Create your account</button>
@@ -92,30 +93,29 @@
         <!-- seconda sezione grigia -->
         <section class="bg-grey">
             <div class="container text-center">
-                <h4 class="text-grey text-caps">Innovative businesses trust digitalocean</h4>
-                <div class="row">
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                <h4 class="text-darkgrey text-caps">Innovative businesses trust digitalocean</h4>
+                <div class="row ">
+                    <div class="col-sm-2 col-xs-6 my-hfix">
                         <img class="client-logo" src="img/docker.svg" alt="">
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                    <div class="col-sm-2 col-xs-6 my-hfix">
                         <img class="client-logo" src="img/gitlab.svg" alt="">
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                    <div class="col-sm-2 col-xs-6 my-hfix">
                         <img class="client-logo" src="img/slack.svg" alt="">
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                    <div class="col-sm-2 col-xs-6 my-hfix">
                         <img class="client-logo" src="img/hashicorp.svg" alt="">
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                    <div class="col-sm-2 col-xs-6 my-hfix">
                         <img class="client-logo" src="img/wework.svg" alt="">
                     </div>
-                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6">
+                    <div class="col-sm-2 col-xs-6 my-hfix">
                         <img class="client-logo" src="img/splunk.svg" alt="">
                     </div>
                 </div>
                 <a href="#" class="text-blue">View customer stories ></a>
             </div>
-            
         </section>
         <!-- terza sezione bianca -->
         <section>
@@ -123,40 +123,40 @@
                 <!-- testo in cima -->
                 <div class="text-center">
                     <h2>Deploy and scale seamlessly</h2>
-                    <p>Our optimized configuration process saver your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+                    <p class="text-darkgrey">Our optimized configuration process saver your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
                 </div>
-                <div class="row">
+                <div class="row my-margin-top">
                     <!-- parte sinistra -->
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="link-list">
-                            <a href="#">Deploy</a>
-                            <a href="#">Manage</a>
-                            <a href="#">Secure</a>
-                            <a href="#">Scale</a>
-                            <a href="#">Monitor</a>
-                        </div>
+                    <div class="col-sm-3 col-sm-offset-1">
+                        <ul class="list-unstyled link-list my-margin-bottom">
+                            <li><a href="#">Deploy</a></li>
+                            <li><a href="#">Manage</a></li>
+                            <li><a href="#">Secure</a></li>
+                            <li><a href="#">Scale</a></li>
+                            <li><a href="#">Monitor</a></li>
+                        </ul>
                     </div>
                     <!-- parte destra -->
-                    <div class="col-lg-8 col-md-8 col-sm-8">
+                    <div class="col-sm-8">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-sm-6">
                                 <img class="deploy-img" src="img/cluster-deploy.svg" alt="">
                                 <h4>Cluster deployments</h4>
                                 <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-sm-6">
                                 <img class="deploy-img" src="img/optimized-compute.svg" alt="">
                                 <h4>Optimized compute types</h4>
                                 <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-sm-6">
                                 <img class="deploy-img" src="img/one-click.svg" alt="">
                                 <h4>One-click apps</h4>
                                 <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="col-sm-6">
                                 <img class="deploy-img" src="img/global.svg" alt="">
                                 <h4>Global availability</h4>
                                 <p>Deploy to any of our data center regions around the world.</p>
@@ -175,10 +175,10 @@
                 </div>
                 <!-- carousel -->
                 <div class="row">
-                    <div class="col-lg-1 col-lg-offset-2 col-md-1 col-md-offset-2 col-sm-1 col-sm-offset-2 hidden-xs">
+                    <div class="col-sm-1 col-sm-offset-2 hidden-xs">
                         <a href="#"><span class="glyphicon glyphicon-chevron-left"></span></a>
                     </div>
-                    <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+                    <div class="col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
                         <img class="carousel-img" src="img/slide.jpg" alt="">
                         <div class="text-center">
                             <h6>Create compute servers in 55 seconds or less</h6>
@@ -188,7 +188,7 @@
                             <span class="circle"></span>
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs">
+                    <div class="col-sm-1 hidden-xs">
                         <a href="#"><span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 </div>
@@ -199,19 +199,19 @@
             <div class="container">
                 <h2 class="text-center">The features your budiness needs</h2>
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="col-sm-4">
                         <img class="deploy-img" src="img/pred-pricing.svg" alt="">
                         <h4>Predictable pricing</h4>
                         <p>Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
                         <p><a href="#" class="text-blue">Pricing ></a></p>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="col-sm-4">
                         <img class="deploy-img" src="img/world-class.svg" alt="">
                         <h4>World-class service</h4>
                         <p>Free round-the-clock techincal support for all customers. You'll feel the love.</p>
                         <p><a href="#" class="text-blue">Support ></a></p>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="col-sm-4">
                         <img class="deploy-img" src="img/reliable-platform.svg" alt="">
                         <h4>Reliable platform</h4>
                         <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
@@ -309,10 +309,10 @@
                 <h2 class="text-center">Development teams love DigitalOcean</h2>
                 <!-- carousel -->
                 <div class="row">
-                    <div class="col-lg-1 col-lg-offset-2 col-md-1 col-md-offset-2 col-sm-1 col-sm-offset-2 hidden-xs">
+                    <div class="col-sm-1 col-sm-offset-2 hidden-xs">
                         <a href="#"><span class="glyphicon glyphicon-chevron-left"></span></a>
                     </div>
-                    <div class="col-lg-6 col-lg-offset-0 col-md-6 col-md-offset-0 col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+                    <div class="col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
                         <div class="bubble text-center">
                             <img class="carousel-logo" src="img/rockerbox-logo.png" alt="">
                             <p>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient."</p>
@@ -329,7 +329,7 @@
                             <span class="circle"></span>
                         </div>
                     </div>
-                    <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs">
+                    <div class="col-sm-1 hidden-xs">
                         <a href="#"><span class="glyphicon glyphicon-chevron-right"></span></a>
                     </div>
                 </div>
