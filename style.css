@@ -23,6 +23,9 @@ section {
 .bg-darkblue {
     background-color: midnightblue;
 }
+.text-black {
+    color: black;
+}
 .text-white {
     color: white;
 }
@@ -93,22 +96,35 @@ section {
 .link-list a {
     color: grey;
 }
-.my-margin-top {
+.my-margin-top-l {
     margin-top: 40px;
 }
-.my-margin-bottom {
+.my-margin-top-s {
+    margin-top: 20px;
+}
+.my-margin-bottom-l {
+    margin-bottom: 40px;
+}
+.my-margin-bottom-s {
     margin-bottom: 20px;
+}
+.my-margin-bottom-xs {
+    margin-bottom: 10px;
+}
+.my-margin-arrow {
+    margin-top: 15%;
+}
+.my-heavy-pad {
+    padding: 40px 0;
 }
 .deploy-img {
     /* nome da rivedere forse */
     display: block;
     width: 30px;
 }
-/* da aggiustare stile generale della sezione */
 .carousel-img {
     width: 100%;
 }
-/* da aggiustare altezza frecce */
 .circle {
     display: inline-block;
     height: 10px;
@@ -119,17 +135,28 @@ section {
 .full {
     background-color: dodgerblue;
 }
-/* da sistemare margini sezione 5 */
-
-/* aggiustare stile tabella */
-/* border-top td */
-/* text-align destra per l'ultimo figlio di tr */
+.my-table tr:first-child > * {
+    border-color: transparent;
+}
+.my-table td:last-child {
+    text-align: right;
+}
 .carousel-logo {
     width: 200px;
 }
-/* da aggiustare stile generale della sezione (carousel) */
+.social-logos a {
+    color: lightgray;
+    font-size: 15px;
+    margin-right: 10px;
+}
+footer h5 {
+    margin-top: 20px;
+}
+footer li {
+    margin-top: 10px;
+}
 footer li > a {
     color: lightgray;
 }
-/* as usual aggiungere stile */
 
+/* controlla margini su media query per i carousel */
