@@ -13,51 +13,61 @@
     <title>DigitalOcean</title>
 </head>
 <body>
-    <!-- da rivedere il nav se no flavio mi mena -->
     <header>
         <nav class="navbar navbar-default navbar-my-theme">
             <div class="container">
-                <div class="navbar-header">
-                    <!-- hamburger menu -->
-                    <button type="button" class="navbar-toggle collapsed text-blue" data-toggle="collapse">
-                        <span class="glyphicon glyphicon-menu-hamburger"></span>
-                    </button>
+                <div class="row">
                     <!-- logo a sinistra -->
-                    <a class="navbar-brand" href="#">
-                        <img src="img/logo.png" alt="">
-                    </a>
-                </div>
-                
-                <div class="collapse navbar-collapse">
+                    <div class="col-md-3">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
                     <!-- parte centrale -->
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="#">Products
-                                <span class="glyphicon glyphicon-menu-down">
-                                </span>
-                            </a>
-                        </li>
-                        <li><a href="#">Customers</a></li>
-                        <li>
-                            <a href="#">Community
-                                <span class="glyphicon glyphicon-menu-down"></span>
-                            </a>
-                        </li>
-                        <li><a href="#">Pricing</a></li>
-                    </ul>
+                    <div class="col-md-5 visible-md">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#">Products
+                                    <span class="glyphicon glyphicon-menu-down">
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Customers</a>
+                            </li>
+                            <li>
+                                <a href="#">Community
+                                    <span class="glyphicon glyphicon-menu-down"></span>
+                                </a>
+                            </li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                    </div>
                     <!-- parte a destra -->
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Docs</a></li>
-                        <li>
-                            <a href="#">Support
-                                <span class="glyphicon glyphicon-menu-down"></span>
-                            </a>
-                        </li>
-                        <li><a href="#">Login</a></li>
-                        <li>
-                            <button type="button" class="btn btn-default navbar-btn my-b1">Sign Up</button>
-                        </li>
-                    </ul>
+                    <div class="col-md-4 visible-md">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#">Docs</a>
+                            </li>
+                            <li>
+                                <a href="#">Support
+                                    <span class="glyphicon glyphicon-menu-down"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">Login</a>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-default navbar-btn my-b1">Sign Up</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- hamburger menu -->
+                    <div class="col-sm-1 col-sm-push-9 hidden-md text-right">
+                        <a id="hamburger-menu" class="text-blue" href="#">
+                            <span class="glyphicon glyphicon-menu-hamburger"></span>
+                        </a>
+                    </div> 
                 </div>
             </div>
         </nav>
@@ -69,7 +79,7 @@
                 <div class="row">
                     <div class="col-sm-7">
                         <div>
-                            <h1 class="text-white">The simplest cloud platform for developers & teams</h1>
+                            <h1 class="text-white main-text">The simplest cloud platform for developers & teams</h1>
                             <p  class="text-grey">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousands</p>
                         </div>
                     </div>

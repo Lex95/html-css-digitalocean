@@ -1,11 +1,19 @@
 .navbar-my-theme {
     background-color: white;
     border: transparent;
+    margin-bottom: 0;
 }
 .navbar-my-theme img {
     height: 100%;
 }
-/* da sistemare i padding dei singoli elementi e far collassare anche in md*/
+.navbar-my-theme li a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#hamburger-menu {
+    line-height: 50px;
+    font-size: large;
+}
 section {
     padding: 30px 0;
 }
@@ -22,6 +30,9 @@ section {
 }
 .bg-darkblue {
     background-color: midnightblue;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
 }
 .text-black {
     color: black;
@@ -63,11 +74,14 @@ section {
     background-image: url(img/google-icon.png);
     background-size: contain;
     background-repeat: no-repeat;
-    /* da aggiustare dimensioni e opacità */
+    opacity: 0.6;
 }
 .my-b4 {
     background-color: white;
     color: dodgerblue;
+}
+.main-text {
+    font-size: 50px;
 }
 .bubble {
     width: 100%;
@@ -78,7 +92,6 @@ section {
 .bubble > * {
     margin-bottom: 10px;
 }
-/* da aggiustare margini vari */
 .client-logo {
     width: 100%;
     max-height: 100%;
