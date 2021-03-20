@@ -171,5 +171,68 @@ footer li {
 footer li > a {
     color: lightgray;
 }
+/* in modalità tablet e smartphone i cerchietti sotto al primo carousel hanno più margin-top */
+@media screen and (max-width: 991px) {
+    #circles {
+        margin-top: 40px;
+    }
+}
+/* bonus icona help */
+#img-fixed {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(26, 117, 207);
+    border-radius: 5px;
+    position: fixed;
+}
+#img-fixed img {
+    width: 100%;
+    margin-top: 10px;
+}
+#unread {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    border: 3px solid white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(30%, -30%);
+}
+#chat-fixed {
+    width: 300px;
+    position: fixed;
 
-/* controlla margini su media query per i carousel */
+}
+#chat-root {
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translateX(70%);
+}
+@media screen and (min-width: 992px) {
+    #img-fixed {
+        bottom: 30px;
+        right: 25px;
+    }
+    #chat-fixed {
+        bottom: 30px;
+        right: 95px;
+    }
+}
+@media screen and (max-width: 991px) {
+    #img-fixed {
+        bottom: 110px;
+        left: 25px;
+    }
+    #chat-fixed {
+        bottom: 30px;
+        left: 25px;
+    }
+}
