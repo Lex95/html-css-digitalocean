@@ -10,6 +10,10 @@
     padding-left: 10px;
     padding-right: 10px;
 }
+.right {
+    float: right;
+    margin-right: 10px;
+}
 #hamburger-menu {
     line-height: 50px;
     font-size: large;
@@ -25,8 +29,8 @@ section {
     background-color: #f3f5f9;
 }
 .bg-blue {
-    /* sarebbe un gradiente ma vediamo poi */
-    background-color: blue;
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(0,56,168,1) 0%, rgba(0,76,230,1) 100%);
 }
 .bg-darkblue {
     background-color: midnightblue;
@@ -115,23 +119,22 @@ h1, h2, h3, h4, h5, h6 {
 .my-margin-top-s {
     margin-top: 20px;
 }
-.my-margin-bottom-l {
-    margin-bottom: 40px;
-}
 .my-margin-bottom-s {
     margin-bottom: 20px;
 }
 .my-margin-bottom-xs {
     margin-bottom: 10px;
 }
-.my-margin-arrow {
+.my-margin-arrow-l {
     margin-top: 15%;
+}
+.my-margin-arrow-s {
+    margin-top: 10%;
 }
 .my-heavy-pad {
     padding: 40px 0;
 }
-.deploy-img {
-    /* nome da rivedere forse */
+.small-icon {
     display: block;
     width: 30px;
 }
@@ -153,6 +156,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .my-table td:last-child {
     text-align: right;
+}
+.my-table a {
+    color: turquoise;
 }
 .carousel-logo {
     width: 200px;
